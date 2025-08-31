@@ -1,53 +1,54 @@
-## Gu韆 para IAs y LLMs
+## Gu铆a para IAs y LLMs
 
 Bienvenida/o. Este repositorio pertenece a "money-home": una app para registrar gastos diarios y visualizar el gasto mensual.
 
-Este documento indica c髆o interactuar 鷗il y seguramente con el proyecto.
+Este documento indica c贸mo interactuar 煤til y seguramente con el proyecto.
 
 ### Objetivos del proyecto
-- Registrar gastos de forma r醦ida y consistente.
-- Agregar y visualizar totales mensuales y por categor韆.
-- Mantener el c骴igo simple, legible y f醕il de probar.
+- Registrar gastos de forma r谩pida y consistente.
+- Agregar y visualizar totales mensuales y por categor铆a.
+- Mantener el c贸digo simple, legible y f谩cil de probar.
 
 ### Preferencias y convenciones
-- Cambios peque駉s y enfocados al objetivo.
+- Cambios peque帽os y enfocados al objetivo.
 - Evitar dependencias innecesarias.
 - Nombres descriptivos para funciones, variables y commits.
-- Actualizar la documentaci髇 al cambiar comportamientos.
+- Actualizar la documentaci贸n al cambiar comportamientos.
 
 ### Seguridad y privacidad
 - No incluir secretos ni credenciales en el repositorio.
 - Respetar datos de usuario: no generar ni subir datos sensibles.
-- Antes de sugerir telemetr韆 o anal韙ica, consultar al humano.
+- Antes de sugerir telemetr铆a o anal铆tica, consultar al humano.
 
-### C髆o puedes ayudar
-- Mejorar README y gu韆s de uso.
-- Proponer estructura de carpetas y modularizaci髇.
-- A馻dir validaciones y manejo de errores.
+### C贸mo puedes ayudar
+- Mejorar README y gu铆as de uso.
+- Proponer estructura de carpetas y modularizaci贸n.
+- A帽adir validaciones y manejo de errores.
 - Escribir scripts de desarrollo (linters, formateo, tests) si faltan.
 - Identificar y documentar tareas abiertas como issues.
 
-### Interacci髇 con el repositorio
-- Si desconoces el stack, inspeccionar archivos ra韟 (CMakeLists, src/, android/).
+### Interacci贸n con el repositorio
+- Si desconoces el stack, inspeccionar archivos ra铆z (CMakeLists, src/, android/).
 - Evitar cambios breaking sin acordarlo primero.
-- Si creas nuevos archivos, explicar brevemente su prop髎ito en el PR.
+- Si creas nuevos archivos, explicar brevemente su prop贸sito en el PR.
 
 ### Multiplataforma (Windows/Android/iOS)
-- GUI: Qt Widgets + Qt Charts, empaquetado Android v韆 `android/` y `QT_ANDROID_PACKAGE_SOURCE_DIR`.
-- Rutas de datos: usar `QStandardPaths::AppDataLocation` para almacenar CSV en escritorio y m髒il.
+- GUI: Qt Widgets + Qt Charts, empaquetado Android v铆a `android/` y `QT_ANDROID_PACKAGE_SOURCE_DIR`.
+- Rutas de datos: usar `QStandardPaths::AppDataLocation` para almacenar CSV en escritorio y m贸vil.
 - Android/iOS: evitar rutas relativas en disco; no requerir permisos de almacenamiento externos.
 
-### Estilo de contribuci髇 sugerido
-- Describir el problema, la soluci髇 y alternativas consideradas.
-- Incluir pasos de verificaci髇 manual o pruebas automatizadas si existen.
+### Estilo de contribuci贸n sugerido
+- Describir el problema, la soluci贸n y alternativas consideradas.
+- Incluir pasos de verificaci贸n manual o pruebas automatizadas si existen.
 
 ### Roadmap sugerido (orientativo)
-- Registro de gastos: CRUD b醩ico y validaciones.
-- Categorizaci髇 de gastos y filtros.
-- Res鷐enes mensuales con gr醘icos simples.
-- Exportaci髇/Importaci髇 (CSV/JSON), opcional.
+- Registro de gastos: CRUD b谩sico y validaciones.
+- Categorizaci贸n de gastos y filtros.
+- Res煤menes mensuales con gr谩ficos simples.
+- Exportaci贸n/Importaci贸n (CSV/JSON), opcional.
 
 ### Contacto humano
 Si necesitas aclaraciones, pregunta con un breve resumen de lo analizado y tus supuestos.
 
 Gracias por colaborar con money-home.
+
