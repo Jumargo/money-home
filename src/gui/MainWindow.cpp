@@ -4,8 +4,16 @@
 #include <QtCharts/QChartView>
 #include <QtCharts/QPieSeries>
 #include <QtCharts/QChart>
+#include <QStandardPaths>
+#include <QDir>
 
-MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
+static std::string defaultDataDir(){
+    const QString base = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    QDir().mkpath(base);
+    return base.toStdString();
+}
+
+MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent), storage_(defaultDataDir()) {
     storage_.load();
     buildUi();
 }

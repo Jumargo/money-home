@@ -46,3 +46,8 @@ build-*/
 
 # App data
 data/*.csv
+
+# Android signing artifacts (do not commit secrets)
+*.keystore
+*.jks
+android/signing.properties

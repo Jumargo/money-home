@@ -1,0 +1,6 @@
+storeFile=C:/path/to/moneyhome-release.keystore
+storePassword=CHANGE_ME
+keyAlias=moneyhome
+keyPassword=CHANGE_ME
+
+# Copia este archivo como signing.properties, no lo subas al repo.
