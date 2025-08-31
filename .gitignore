@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+# Build folders
+build/
+build-*/
+
+# App data
+data/*.csv
